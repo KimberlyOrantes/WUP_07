@@ -69,3 +69,6 @@ This test shows that there are about 400 more females than males. The number of 
   
 ## Conclusions
 
+We determined that this study was categorical by categorical, therefor we used the categorical by categorical helper file. We observed two bar charts which showed more males had died from covid the females. We then conducted a chi squared which showed that the observed counts didn't match the expected counts. It was expected that more females would die than males because there was a larger amount of females in the study than there were males. Instead more males who died than females who died. The fisher test conducted shows that the ratio of females and males who died is 1 to 2.3. Therefore, we can conclude that dying is not independent of sex because males are more likely to die than females.  
+  
+
