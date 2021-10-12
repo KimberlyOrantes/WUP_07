@@ -38,10 +38,14 @@ with(kRdata, table(Sex, result))
 
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
 
-`
+````{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
+```
+
+The first graph shows there is a higher number of females and a low number of males in this study. However the number of males that died is greater than the amount of the females that died. It would be expected that if it were indiscriminate, then we would see the same amount of deaths for males and females, meaning sex wouldn't matter.    
   
-
 
 
 
