@@ -59,8 +59,13 @@ The first table, first line tells us that out of all the people that remain aliv
   
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
-
+This test shows that there are about 400 more females than males. The number of death for females was 25 and for males it was 44. Almost double the amount of males died than the amount females that died despite there being more females than males in the study. The fisher test shows the ratio of the females and males that died, which is 1 to 2.3 respectively. This means that the odds of dying for males is greater than the odds of dying for females.  
+  
 ## Conclusions
 
